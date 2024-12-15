@@ -9,7 +9,9 @@ environment:
 
 dependencies:
   geodesy: ^0.10.2
-  geopoint: ^1.0.0
+  geopoint:
+    git:
+      url: https://github.com/NextFaze/geopoint
   iso: ^1.0.0
   pedantic: ^1.11.1
 
